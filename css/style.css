@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before{    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    header{
+
+        .header1{
+            background-color: aqua;
+            padding: 20px;  
+            nav{
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    list-style-type: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .header2{
+            background-color: aqua;
+            padding: 20px;  
+            nav{
+                ul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    list-style-type: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+    main{
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-evenly;
+        
+
+        .main1{
+            padding: 200px 10px 200px 10px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+
+        .main2{
+            padding: 200px 10px 200px 10px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        
+        button{
+            font-size: 30px;
+        }
+
+    }
+    footer{
+        text-align: center;
+
+        .footer1{
+            text-align: center;
+            padding: 20px;
+
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+        
+        .footer2{
+            text-align: center;
+            padding: 20px;
+
+            ul{
+                display: flex;
+                justify-content: space-evenly;
+            }
+        }
+    }
+}
+
+.ocultar{
+    display: none;
+}
