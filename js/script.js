@@ -23,6 +23,7 @@ function Pag1(){
     $pagina2.classList.add("ocultar")
     
     $header1.classList.remove("ocultar");
+    $header1.classList.add("display");
     $main1.classList.remove("ocultar");
     $footer1.classList.remove("ocultar");
     $volver.classList.remove("ocultar");
@@ -30,23 +31,26 @@ function Pag1(){
 $pagina1.addEventListener("click", Pag1);
 
 function Pag2(){
-    $pagina1.classList.add("ocultar")
-    $pagina2.classList.add("ocultar")
+    $pagina1.classList.add("ocultar");
+    $pagina2.classList.add("ocultar");
     
     $header2.classList.remove("ocultar");
     $main2.classList.remove("ocultar");
+    $main2.classList.add("display");
     $footer2.classList.remove("ocultar");
     $volver.classList.remove("ocultar");
 }
 $pagina2.addEventListener("click", Pag2);
 
 function Vol(){
-    $pagina1.classList.remove("ocultar")
-    $pagina2.classList.remove("ocultar")
+    $pagina1.classList.remove("ocultar");
+    $pagina2.classList.remove("ocultar");
 
+    $header1.classList.remove("display");
     $header1.classList.add("ocultar");
     $header2.classList.add("ocultar");
     $main1.classList.add("ocultar");
+    $main2.classList.remove("display");
     $main2.classList.add("ocultar");
     $footer1.classList.add("ocultar");
     $footer2.classList.add("ocultar");
